@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+}
+
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-area {
+  border-radius: 16px;
+  width: 400px;
+  background-color: #c1ffff;
+  padding: 5px;
+  margin: 8px;
+}
+
+.incomplete-area {
+  background-color: #c1ff23;
+  border-radius: 16px;
+  width: 400px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.complete-area {
+  background-color: #c1ffaa;
+  border-radius: 16px;
+  width: 400px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
