@@ -21,6 +21,10 @@ button:hover {
   cursor: pointer;
 }
 
+li {
+  margin-right: 1px;
+}
+
 .input-area {
   border-radius: 16px;
   width: 400px;
@@ -50,4 +54,10 @@ button:hover {
   margin-top: 0;
   font-weight: bold;
   color: #666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
 }
